@@ -70,18 +70,6 @@ nav {
   margin: 1% 5% 0% 5%;
 }
 
-ul {
-  display: inline-block;
-  width: 83%;
-  list-style: none;
-  text-align: left;
-}
-
-li {
-  display: inline-block;
-  margin-right: 10%;
-}
-
 header {
   width: 90%;
   margin: 5%;
@@ -96,7 +84,6 @@ footer {
 
 h1 {
   font-size: 100px;
-  display: inline-block;
   width: 100%;
   text-align: center;
   vertical-align: top;
@@ -111,7 +98,6 @@ p {
 }
 
 button {
-  display: inline-block;
   width: 60%;
   font-size: 24px;
   margin-left: 18%;
@@ -123,14 +109,15 @@ hr {
 }
 
 nav a {
-  display: inline-block;
   text-decoration: none;
   color: lightslategray;
-  margin-right: 10%;
   vertical-align: middle;
+  padding-top: 3%;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   margin: 1%;
   padding: 1%;
@@ -138,9 +125,7 @@ nav a {
 }
 
 .logo {
-  display: inline-block;
-  width: 15%;
-  padding-top: 1%;
+  padding-top: 2%;
 }
 
 .mainTitle {
@@ -150,7 +135,6 @@ nav a {
 }
 
 .main-img {
-  display: inline-block;
   width: 100%;
   padding-left: 20%;
 }
@@ -162,10 +146,16 @@ nav a {
 }
 
 .twoBlocks {
-  display: inline-block;
-  width: 47%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
   margin: 1%;
   padding: 1%;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
 }
 
 .middle-img {
@@ -180,14 +170,16 @@ nav a {
 }
 
 .threeBlocks {
-  display: inline-block;
-  width: 31%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
   margin: 1%;
   padding: 1%;
 }
 
 .contact {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 31%;
   margin: 0% 1% 1% 1%;
   padding: 1%;
@@ -198,7 +190,6 @@ nav a {
 }
 
 .copyright {
-  display: inline-block;
   width: 20%;
   margin: 0% 42.5% 5% 42.5%;
 }
