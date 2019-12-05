@@ -64,3 +64,192 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+  width: 90%;
+  margin: 1% 5% 0% 5%;
+}
+
+header {
+  width: 90%;
+  margin: 5%;
+}
+
+footer {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Gupter', serif;
+}
+
+button {
+  width: 60%;
+  font-size: 24px;
+  margin-left: 18%;
+  vertical-align: bottom;
+}
+
+hr {
+  width: 90%;
+}
+
+nav a {
+  text-decoration: none;
+  color: lightslategray;
+  vertical-align: middle;
+  padding-top: 3%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  height: 90px;
+}
+
+.logo {
+  padding-top: 2%;
+}
+
+.mainTitle {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.main-img {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.top-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.twoBlocks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-img {
+  width: 90%;
+  margin: 2% 5% 2% 5%;
+}
+
+.bottom-content {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.threeBlocks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  margin: 0% 1% 1% 1%;
+  padding: 1%;
+}
+
+.contact p {
+  padding-top: 5%;
+}
+
+.copyright {
+  width: 20%;
+  margin: 0% 42.5% 5% 42.5%;
+}
+
+/* Services CSS */
+
+ul {
+  list-style: square;
+  margin: 2% 0% 0% 5%;
+  line-height: 2;
+}
+
+.imagelink {
+  padding-top: 1.5%;
+}
+
+.servicesHeader {
+  margin-bottom: 2%;
+}
+
+.services-header-img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.servicesh1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  margin-left: 0%;
+}
+
+.wrap div {
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 48%;
+  padding: 1%;
+  margin: 1%;
+}
+
+.learnMorebtn {
+  width: 30%;
+  font-size: 16px;
+  margin: 4% 98% 2% 2%;
+  background-color: white;
+  border: .5px solid black;
+}
+
+.services-info-img {
+  width: 45%;
+}
+
+.twoColumns {
+  margin-left: 0%;
+}
+
+.twoColumns div {
+  width: 45%;
+  margin-right: 10%;
+}
